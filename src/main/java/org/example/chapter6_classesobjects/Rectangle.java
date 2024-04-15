@@ -36,7 +36,9 @@ public class Rectangle { // general representation or shell of a rectangle objec
     double calculateArea(){
         return length * width;
     }
-    //encapsulation: on of the key  of object-oriented programming and what it say is when you create a class that is going to represent an object
+
+
+    //encapsulation:the key of object-oriented programming and what it say is when you create a class that is going to represent an object
     // then your fields should be private so, what "private" means is that no other code outside of this class can access things that are marked as private,
     // so no class can directly access this length nor can they directly access this width, that is what the getter, setter and constructor are for.
     //so in order to have encapsulation we have to use our fields in "private" and the setter, getter and constructor "public".
