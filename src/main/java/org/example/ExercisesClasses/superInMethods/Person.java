@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.superInMethods;
+package org.example.ExercisesClasses.superInMethods;
 
 public class Person {
     private String firstName;

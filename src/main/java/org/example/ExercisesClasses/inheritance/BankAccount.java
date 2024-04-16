@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.inheritance;
+package org.example.ExercisesClasses.inheritance;
 /*Write a Java program to create a class known as "BankAccount"
 with methods called deposit() and withdraw().
 Create a subclass called SavingsAccount that overrides the withdraw()

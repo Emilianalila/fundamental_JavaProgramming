@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.baseClass;
+package org.example.ExercisesClasses.baseClass;
 
 public class Car extends Vehicle{
     //constructor:

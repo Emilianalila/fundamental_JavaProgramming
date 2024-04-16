@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.superInMethods;
+package org.example.ExercisesClasses.superInMethods;
 /*Write a Java program to create a class known as Person with methods called
 getFirstName() and getLastName().
 Create a subclass called Employee that adds a new method named getEmployeeId()

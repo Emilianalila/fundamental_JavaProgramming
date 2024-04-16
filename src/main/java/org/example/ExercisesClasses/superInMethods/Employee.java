@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.superInMethods;
+package org.example.ExercisesClasses.superInMethods;
 
 public class Employee extends Person{
     private int employeeId;

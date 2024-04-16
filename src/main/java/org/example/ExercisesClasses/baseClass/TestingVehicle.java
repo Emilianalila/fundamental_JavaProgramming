@@ -1,7 +1,8 @@
-package org.example.chapter12_Exercises.baseClass;
+package org.example.ExercisesClasses.baseClass;
 
 public class TestingVehicle {
     public static void main(String[] args) {
+        // the only class that we can't instantiate is the base class, because is "abstract"!! we can only instantiate its subclasses.
         Truck truck1 = new Truck("Jetta","Ford",94, "gasoline" , 4);
         System.out.println("truck1 = " + truck1);
         System.out.println("truck1 = " + truck1.getFuel());

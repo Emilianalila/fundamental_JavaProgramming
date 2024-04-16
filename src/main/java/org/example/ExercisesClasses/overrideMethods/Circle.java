@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.overrideMethods;
+package org.example.ExercisesClasses.overrideMethods;
 
 public class Circle extends Shape {
     private double radius;

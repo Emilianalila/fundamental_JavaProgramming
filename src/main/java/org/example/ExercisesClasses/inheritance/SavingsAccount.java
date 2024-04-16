@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.inheritance;
+package org.example.ExercisesClasses.inheritance;
 
 public class SavingsAccount extends BankAccount{
     private double accountBalance;

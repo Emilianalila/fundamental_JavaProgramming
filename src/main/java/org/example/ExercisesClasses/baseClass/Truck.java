@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.baseClass;
+package org.example.ExercisesClasses.baseClass;
 
 public class Truck extends  Vehicle{
     //
@@ -9,14 +9,11 @@ public class Truck extends  Vehicle{
         this.wheels = wheels;
         System.out.println("I am the constructor of Truck");
     }
-    //
-     public void setWheels( int wheels){
-        this.wheels = wheels;
-     }
+    //getter
      public int getWheels(){
         return wheels;
      }
-
+    // if we extend from an "abstract class", we need to implement the methods that the super class have marked as abstract, otherwise we are going to have an error
     @Override
     public int getEfficiency() {
         return 12;

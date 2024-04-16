@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.inheritance;
+package org.example.ExercisesClasses.inheritance;
 
 public class TestBankAccount {
     public static void main(String[] args) {

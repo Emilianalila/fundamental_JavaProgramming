@@ -1,4 +1,4 @@
-package org.example.chapter12_Exercises.baseClass;
+package org.example.ExercisesClasses.baseClass;
 
 public abstract class Vehicle {
     //properties:
@@ -28,7 +28,7 @@ public abstract class Vehicle {
         return fuel;
     }
 
-    //extra methods:
+    //extra methods: this abstract methods help us to ensure that this methods are going to be in the subclasses definitely!
     public abstract int getEfficiency();
     public abstract double getDistanceTravel();
     public abstract double getMaximumSpeed();
