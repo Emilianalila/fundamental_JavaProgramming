@@ -1,12 +1,16 @@
-package org.example.exercisesCollections.Grades;
-
-
+package org.example.exercisesCollections.grades_hashMap;
 import java.util.HashMap;
 import java.util.Map;
 
+/*Given two Maps of test scores,
+I would like you to update the student's grades only if they did better on the makeup exam.
+Then print the final grades.
+What I would like you to do is make another class, and then
+you're going to make a call to these methods to get these Maps.
+Then I want you to go through these Maps in your code and determine
+the final grade based on which one of these are higher.*/
     public class TestResults {
-
-        public static Map getOriginalGrades(){
+        public static Map getOriginalGrades(){ //method static
 
             Map grades = new HashMap();
             grades.put("Angie", 24);

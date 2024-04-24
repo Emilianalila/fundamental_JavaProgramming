@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println("fourth point .........................");
         for(VideoGame c: listGames){
-            if(c.getConsole().equals("Nintendo 64")){
+            if(c.getConsole().equals("Nintendo 64")){ // we use equals because we are comparing objects
                 System.out.println("c = " + c.toString());
             }
         }
