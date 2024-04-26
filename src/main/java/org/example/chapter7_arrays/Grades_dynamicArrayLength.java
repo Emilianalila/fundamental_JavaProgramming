@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 /*1_ create a program that allows the user to enter any number
 * of grades and provides them with their average score, as well as the highest and lowest scores*/
-public class Grades_dynamicArrayLength {// all static, otherwise doesn't work
+public class Grades_dynamicArrayLength {
 
     private static Scanner scanner = new Scanner(System.in);
     private static int [] grades;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// all static, otherwise doesn't work
         // depending of the grade number that the user's enter, is going to be the length of our array
         System.out.println("How many grades are you going to enter?");
         grades = new int[scanner.nextInt()]; //this is a static array therefore when I declared I need to specify the size. the size is entered directly by the user
@@ -31,7 +31,7 @@ public class Grades_dynamicArrayLength {// all static, otherwise doesn't work
     public static int[] getGrades(){ // this methods return an arrays
         for (int i = 0; i < grades.length; i++) {
             System.out.println("Enter the grades number "+ (i+1)+":");
-            grades[i] = scanner.nextInt();    // how to assign items to an array !!!!
+            grades[i] = scanner.nextInt();    // how to assign items to an array !!!!.....................
         }
         return grades;
     }

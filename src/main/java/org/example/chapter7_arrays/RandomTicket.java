@@ -1,8 +1,8 @@
 package org.example.chapter7_arrays;
-
 import java.util.Random;
 /*The output is the printing of the generated ticket on the console.*/
 /*Create a lottery quick pick application that will generate a lottery ticket with 6 random numbers between 1-69*/
+
 public class RandomTicket {
     private static final int LENGTH = 6; // constant field
     private static final int MAXTICKETNUMBER = 69; // constant field

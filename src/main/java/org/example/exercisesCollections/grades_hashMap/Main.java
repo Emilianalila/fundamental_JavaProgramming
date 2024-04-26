@@ -1,7 +1,9 @@
 package org.example.exercisesCollections.grades_hashMap;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 import static org.example.exercisesCollections.grades_hashMap.TestResults.getMakeUpGrades;
 import static org.example.exercisesCollections.grades_hashMap.TestResults.getOriginalGrades;
@@ -13,7 +15,7 @@ public class Main {
         Map<String, Integer> makeUpGrade = TestResults.getMakeUpGrades(); //collection of pairs key-vale
         System.out.println("originalGrades = " + originalGrades);
         System.out.println("makeUpGrade = " + makeUpGrade);
-
+       //how we are going to declare the new hashMap? first we choose the interface that we are going to implement ,
         Map<String, Integer> finalGrades = new HashMap<>();
         //     one key     many keys
         for (String key : originalGrades.keySet()) {
@@ -32,7 +34,27 @@ public class Main {
                 }
             }
         }
-        System.out.println("finalGrades = " + finalGrades);
+        System.out.println("finalGrades = " + finalGrades); // unordered list
+
+
+        System.out.println("TreeMap.................................");
+
+        Map<String, String> newTreeMap = new TreeMap<>();
+        newTreeMap.put("Biology", "Patricia");
+        newTreeMap.put("Anatomy", "Aldo");
+        newTreeMap.put("Chemist", "Lucho");
+
+        System.out.println("newTreeMap = " + newTreeMap); // ordered list by the first letter of the key
+
+        System.out.println("LinkedMap.................................");
+        
+        Map <Integer, String> newLinkedMap = new LinkedHashMap<>();
+        newLinkedMap.put(1, "Emi");
+        newLinkedMap.put(2, "pepe");
+        newLinkedMap.put(3, "toto");
+        newLinkedMap.put(4, "tutu");
+        newLinkedMap.put(2,"pepe");// we repeat one element, but is not included in the list
+        System.out.println("newLinkedMap = " + newLinkedMap);
     }
 }
 

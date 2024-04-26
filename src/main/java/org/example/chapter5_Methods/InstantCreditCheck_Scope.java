@@ -1,19 +1,18 @@
 package org.example.chapter5_Methods;
-
 import java.util.Scanner;
-
 /*
 Variable scope:
 write an instant credit check program that approves anyone
 who makes more than $25,000 and has a credit score
 of 700 or better. Reject all others.
  */
+
 public class InstantCreditCheck_Scope {
     static double salaryMinimum= 25000; //without dot.
     static double creditScore = 700; // because our methods are static, we are going to also need to declare our global variables as static as well
     static Scanner scanner= new Scanner(System.in);
 
-    public static void main(String[] args) {// used to control the flow
+    public static void main(String[] args) {// used to control the flow, is a static method, so the others methods, needs to be static also, otherwise we can not access to them, we are going to have an error, like this: Non-static method 'getScore()' cannot be referenced from a static context
         //initialize the variables we know
         // get the unknown variables
         int userScore =  getScore();
@@ -31,7 +30,7 @@ public class InstantCreditCheck_Scope {
        System.out.println("Enter your Salary");
        return scanner.nextDouble(); // better way
    }
-   public static void isUserQualified(int score, double salary){// static method
+   public static void isUserQualified(int score, double salary){// all method are static
        if (score >= creditScore && salary >= salaryMinimum) {
            System.out.println("Congrats, you've been approved");
        }else{
