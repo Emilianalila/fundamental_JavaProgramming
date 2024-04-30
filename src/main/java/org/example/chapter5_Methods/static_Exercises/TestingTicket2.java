@@ -14,7 +14,7 @@ public class TestingTicket2 {
         list2.add(new Ticket2( LocalDate.now(), "Shakira"));
 
         for(int i=0; i<list2.size(); i++){
-            System.out.println("list2 = " + list2.get(i)); // I can see the value of his attributes in that instant of each object
+            System.out.println("list2 = " + list2.get(i)); // I can see the value of his attributes, in that instant of each object
         }
         System.out.println("list of tickets= " + list2); // if we don't use the method toString, this println is going to show the reference where the object It's save, not the actual values of each object in the list, why? because this list points to "objects", is the same with variables, if we have a variable that points to an object, we are not going to be able to see his content because is pointing to an object
 
@@ -29,7 +29,6 @@ public class TestingTicket2 {
         Scanner scanner1 = new Scanner(System.in);
         String newString = scanner.nextLine();
         System.out.println("newString = " + newString);
-        scanner.close();
         
 
     }

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class PasswordValidatorExercise {
     static String oldPassword = "Chocolate10%";
-    static String userName = "Pablo";
+    static String userName = "PepeArgento";
 
     public static void main(String[] args) {
     // new password

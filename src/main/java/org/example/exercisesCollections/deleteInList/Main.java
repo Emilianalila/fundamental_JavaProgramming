@@ -32,7 +32,7 @@ public class Main {
         String deleteName = "Pepe2"; // for remove an object in a LinkedList, we need to give at least one property to compare with the object that we are iterating
         for(Person c: list2){
             if (c.getName().equals(deleteName)){// we choose the property in the current element and compared with the method equal
-                list2.remove(c);            // here we remove the entire object
+                list2.remove(c);            // here we remove the "entire" object.
                 break;                      // we always need to stop the iteration because we break the List and we can't continue iterating
             }
         }
@@ -47,6 +47,6 @@ public class Main {
         System.out.println("delete all the list ");// clear() work for ArrayList and LinkedList
         list2.clear();
         System.out.println("is the list empty? " +  list2.isEmpty());// check is the list is empty = true
-
+        System.out.println();
     }
 }

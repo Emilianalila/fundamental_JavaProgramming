@@ -6,11 +6,11 @@ public class PrintStringBackwards {
         reverseString("What am I doing");
     }
     public static void reverseString(String text){
-        StringBuilder newText = new StringBuilder(text);
-        System.out.println(newText.reverse());
+        /*StringBuilder newText = new StringBuilder(text);
+        System.out.println(newText.reverse());*/
 
-        /*for (int i = text.length() -1; i >= 0; i--) {//
-            System.out.print( text.charAt(i)); // I can't not use text[I], text is an object, square brackets [] are used to access the elements of an array, not to access the characters of a String object, and we use print only, because we want it to print everything in one line
-        }*/
+        for (int i = text.length() -1; i >= 0; i--) {//
+            System.out.print(text.charAt(i)); // I can't use text[I], text is an object, square brackets [] are used to access the elements of an array, not to access the characters of a String object, and we use print only, because we want it to print everything in one line
+        }
     }
 }

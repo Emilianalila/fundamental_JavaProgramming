@@ -24,6 +24,7 @@ public class Main {
         newTreeHash.add("Adela");
         newTreeHash.add("Zorro");
         newTreeHash.add("Pedro");
+        newTreeHash.add("Pedro");//we only print unique elements
         System.out.println("newTreeHash = " + newTreeHash); // ordered list by the alphabet
 
         System.out.println("LinkedSet......................................");
@@ -33,6 +34,6 @@ public class Main {
         newLinkedList.add(1);
         newLinkedList.add(10);
         newLinkedList.add(10); // we only print unique elements
-        System.out.println("newLinkedList = " + newLinkedList);
+        System.out.println("newLinkedList = " + newLinkedList);// unordered list
     }
 }

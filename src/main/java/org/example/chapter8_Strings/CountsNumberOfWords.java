@@ -4,7 +4,7 @@ in a string and print them individually on a new line*/
 
 public class CountsNumberOfWords {
     public static void main(String[] args) {
-        countWords("You can do it, Emi");
+        countWords("You can do it, Emi!");
     }
     public static void countWords(String text){
         String[] arr = text.split(" "); // new array of words, each word is an item of the array
