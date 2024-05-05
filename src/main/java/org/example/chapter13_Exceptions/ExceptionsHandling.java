@@ -25,6 +25,9 @@ public class ExceptionsHandling {
             // Code to handle the exception
             System.out.println("Directory does not exist.");
             e.printStackTrace();
+           /* e.printStackTrace();
+            e.printStackTrace();*/
+            
         }
     }
 
