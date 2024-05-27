@@ -1,8 +1,8 @@
 package org.example.chapter8_Strings;
-
 /*Write a method that "adds" spaces to a jumbled string, using (StringBuilder()).
 where all words are written together with no spaces.
 Each new words begins with a capital letter*/
+
 public class AddSpacesToJumbledString {
     public static void main(String[] args) {
         addSpaces("WednesdayIsGoingToFinishInAnAmazingWay");

@@ -31,7 +31,7 @@ public class Grades_dynamicArrayLength {
     public static int[] getGrades(){ // this methods return an arrays
         for (int i = 0; i < grades.length; i++) {
             System.out.println("Enter the grades number "+ (i+1)+":");
-            grades[i] = scanner.nextInt();    // how to assign items to an array !!!!.....................
+            grades[i] = scanner.nextInt();// how to assign items to an array !!!!!!!!!!!!!!!.....................
         }
         return grades;
     }

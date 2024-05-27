@@ -24,10 +24,10 @@ public class ExceptionsHandling {
         }catch(Exception e){// we have to specify which exception we want catch, how do we know the exception we are going to catch? create a new File has the potential of throwing an i/o exception(Unhandled exception: java.io.FileNotFoundException), so we want to catch what it's throwing (e is just the name)
             // Code to handle the exception
             System.out.println("Directory does not exist.");
-            e.printStackTrace();
+
            /* e.printStackTrace();
             e.printStackTrace();*/
-            
+
         }
     }
 
